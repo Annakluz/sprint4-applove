@@ -1,10 +1,10 @@
 /*
  * Archivo principal de funcionalidad de JS
  */
- var modal = document.getElementById('fondoModal');
- var img = document.getElementsByClassName('img');
- var imgProducto = document.getElementById("img01");
- var borrar = document.getElementsByClassName("cerrar")[0];
+ let modal = document.getElementById('fondoModal');
+ let img = document.getElementsByClassName('img');
+ let imgProducto = document.getElementById("img01");
+ let borrar = document.getElementsByClassName("cerrar")[0];
  borrar.addEventListener("click", cerrar);
  
  for(i=0; i< img.length; i++){
