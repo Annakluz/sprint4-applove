@@ -21,11 +21,14 @@ body {
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
+  font-family: 'Raleway', sans-serif;
+    
 }
 
 img {
   vertical-align: middle;
 }
+
 
 a {
   color: #373B47;
